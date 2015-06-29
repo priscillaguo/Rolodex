@@ -87,34 +87,7 @@
             </objects>
             <point key="canvasLocation" x="-950.5" y="123.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Ez9-Cl-lGd">
-            <objects>
-                <viewController id="e4b-O7-W0X" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0SN-tr-tlJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="4bA-aA-p2y"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FJ4-i7-ae0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contacts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shm-kn-iA1">
-                                <rect key="frame" x="213" y="260" width="70" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zHn-VW-8TI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1421.5" y="9.5"/>
-        </scene>
-        <!--Item 2-->
+        <!--Home-->
         <scene sceneID="R8Y-QA-lrH">
             <objects>
                 <viewController id="AsJ-Pc-XTi" sceneMemberID="viewController">
@@ -125,24 +98,16 @@
                     <view key="view" contentMode="scaleToFill" id="xYB-Kh-de8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QR Readers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQI-ac-lPi">
-                                <rect key="frame" x="166" y="323" width="94" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="TC5-rn-V57"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="TC5-rn-V57"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A1d-kK-rPf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-402.5" y="1139.5"/>
         </scene>
-        <!--Item 1-->
+        <!--Contacts-->
         <scene sceneID="nwF-12-xKz">
             <objects>
                 <viewController id="sNz-tR-tr5" sceneMemberID="viewController">
@@ -153,17 +118,9 @@
                     <view key="view" contentMode="scaleToFill" id="m4W-uC-BGy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contacts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5s-Kb-Hsy">
-                                <rect key="frame" x="166" y="323" width="70" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="oMj-TY-RX2"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" id="oMj-TY-RX2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ehy-al-M8U" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -191,7 +148,7 @@
             </objects>
             <point key="canvasLocation" x="-924.5" y="977.5"/>
         </scene>
-        <!--Item-->
+        <!--QR Reader-->
         <scene sceneID="PwN-iM-gjx">
             <objects>
                 <viewController id="NdN-Tr-nUJ" sceneMemberID="viewController">
@@ -204,68 +161,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="UnQ-zB-UbW"/>
+                    <tabBarItem key="tabBarItem" title="QR Reader" id="UnQ-zB-UbW"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBd-1x-S0i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-376.5" y="2020.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Cv6-4B-Jdn">
-            <objects>
-                <viewController id="VzC-BI-xhK" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kVT-TR-2iN"/>
-                        <viewControllerLayoutGuide type="bottom" id="vFl-d5-R15"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qDo-Mc-ffn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Mi-Aj-BRq">
-                                <rect key="frame" x="273" y="265" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="QAy-h0-lEZ"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lUb-Gb-3Nu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="976.5" y="41.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="WiQ-Ht-rqo">
-            <objects>
-                <viewController id="26q-ir-LDr" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hdS-j9-fwc"/>
-                        <viewControllerLayoutGuide type="bottom" id="T38-L4-Tna"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ykw-74-NNB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QR Reader" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYU-rQ-otc">
-                                <rect key="frame" x="214" y="150" width="85" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DFw-xU-srk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1331.5" y="833.5"/>
         </scene>
     </scenes>
 </document>
