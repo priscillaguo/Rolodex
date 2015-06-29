@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553759401B41C6AB006DBDA4 /* QRScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */; };
 		5EB9F3431B41C1A500963598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3421B41C1A500963598 /* main.m */; };
 		5EB9F3461B41C1A500963598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3451B41C1A500963598 /* AppDelegate.m */; };
 		5EB9F3491B41C1A500963598 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3481B41C1A500963598 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5537593E1B41C6AB006DBDA4 /* QRScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScannerViewController.h; sourceTree = "<group>"; };
+		5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScannerViewController.m; sourceTree = "<group>"; };
 		5EB9F33D1B41C1A500963598 /* Rolodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rolodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB9F3411B41C1A500963598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB9F3421B41C1A500963598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				5EB9F3451B41C1A500963598 /* AppDelegate.m */,
 				5EB9F3471B41C1A500963598 /* ViewController.h */,
 				5EB9F3481B41C1A500963598 /* ViewController.m */,
+				5537593E1B41C6AB006DBDA4 /* QRScannerViewController.h */,
+				5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */,
 				5EB9F34A1B41C1A500963598 /* Main.storyboard */,
 				5EB9F34D1B41C1A500963598 /* Images.xcassets */,
 				5EB9F34F1B41C1A500963598 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553759401B41C6AB006DBDA4 /* QRScannerViewController.m in Sources */,
 				5EB9F3491B41C1A500963598 /* ViewController.m in Sources */,
 				5EB9F3461B41C1A500963598 /* AppDelegate.m in Sources */,
 				5EB9F3431B41C1A500963598 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				5EB9F3621B41C1A500963598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EB9F3631B41C1A500963598 /* Build configuration list for PBXNativeTarget "RolodexTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				5EB9F3651B41C1A500963598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
