@@ -15,6 +15,8 @@
 		5EB9F34E1B41C1A500963598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB9F34D1B41C1A500963598 /* Images.xcassets */; };
 		5EB9F3511B41C1A500963598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB9F34F1B41C1A500963598 /* LaunchScreen.xib */; };
 		5EB9F35D1B41C1A500963598 /* RolodexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F35C1B41C1A500963598 /* RolodexTests.m */; };
+		6ECCF5251B41EAEF00D9C701 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCF5231B41EAEF00D9C701 /* AddressBook.framework */; };
+		6ECCF5261B41EAEF00D9C701 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCF5241B41EAEF00D9C701 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		5EB9F3561B41C1A500963598 /* RolodexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolodexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB9F35B1B41C1A500963598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB9F35C1B41C1A500963598 /* RolodexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolodexTests.m; sourceTree = "<group>"; };
+		6ECCF5231B41EAEF00D9C701 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6ECCF5241B41EAEF00D9C701 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECCF5251B41EAEF00D9C701 /* AddressBook.framework in Frameworks */,
+				6ECCF5261B41EAEF00D9C701 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,8 @@
 		5EB9F3341B41C1A500963598 = {
 			isa = PBXGroup;
 			children = (
+				6ECCF5231B41EAEF00D9C701 /* AddressBook.framework */,
+				6ECCF5241B41EAEF00D9C701 /* AddressBookUI.framework */,
 				5EB9F33F1B41C1A500963598 /* Rolodex */,
 				5EB9F3591B41C1A500963598 /* RolodexTests */,
 				5EB9F33E1B41C1A500963598 /* Products */,
