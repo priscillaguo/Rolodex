@@ -11,6 +11,7 @@
 		4A1BEA1B1B42F42200ADC6CF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BEA1A1B42F42200ADC6CF /* HomeViewController.m */; };
 		4A1BEA1D1B42FC9B00ADC6CF /* Rolodex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1BEA1C1B42FC9B00ADC6CF /* Rolodex.jpg */; };
 		553759401B41C6AB006DBDA4 /* QRScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */; };
+		5E5C5D731B4316EF0047E456 /* QRCode-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C5D721B4316EF0047E456 /* QRCode-Info.plist */; };
 		5EB9F3431B41C1A500963598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3421B41C1A500963598 /* main.m */; };
 		5EB9F3461B41C1A500963598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3451B41C1A500963598 /* AppDelegate.m */; };
 		5EB9F3491B41C1A500963598 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3481B41C1A500963598 /* ViewController.m */; };
@@ -26,7 +27,6 @@
 		6EBCEA971B4210050001BEF5 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCEA8E1B4210050001BEF5 /* rscode.c */; };
 		6EBCEA981B4210050001BEF5 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCEA901B4210050001BEF5 /* split.c */; };
 		6EBCEA9B1B4216690001BEF5 /* UIImage+MDQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCEA9A1B4216690001BEF5 /* UIImage+MDQRCode.m */; };
-		6EE604251B42051100E7A053 /* QRCode-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EE604231B42051100E7A053 /* QRCode-Info.plist */; };
 		6EEBADF41B4206E2001A8D6C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCF5231B41EAEF00D9C701 /* AddressBook.framework */; };
 		6EEBADF51B4206E2001A8D6C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCF5241B41EAEF00D9C701 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +49,7 @@
 		4A1BEA1C1B42FC9B00ADC6CF /* Rolodex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rolodex.jpg; sourceTree = "<group>"; };
 		5537593E1B41C6AB006DBDA4 /* QRScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScannerViewController.h; sourceTree = "<group>"; };
 		5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScannerViewController.m; sourceTree = "<group>"; };
+		5E5C5D721B4316EF0047E456 /* QRCode-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QRCode-Info.plist"; sourceTree = "<group>"; };
 		5EB9F33D1B41C1A500963598 /* Rolodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rolodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB9F3411B41C1A500963598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB9F3421B41C1A500963598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		6EBCEA9A1B4216690001BEF5 /* UIImage+MDQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MDQRCode.m"; sourceTree = "<group>"; };
 		6ECCF5231B41EAEF00D9C701 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		6ECCF5241B41EAEF00D9C701 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		6EE604231B42051100E7A053 /* QRCode-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QRCode-Info.plist"; path = "../../../../Downloads/ios-qr-code-encoder-master/QRCode/QRCode-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 				5EB9F34D1B41C1A500963598 /* Images.xcassets */,
 				5EB9F34F1B41C1A500963598 /* LaunchScreen.xib */,
 				4A1BEA1C1B42FC9B00ADC6CF /* Rolodex.jpg */,
-				6EE604231B42051100E7A053 /* QRCode-Info.plist */,
+				5E5C5D721B4316EF0047E456 /* QRCode-Info.plist */,
 				5EB9F3401B41C1A500963598 /* Supporting Files */,
 			);
 			path = Rolodex;
@@ -278,8 +278,8 @@
 			files = (
 				5EB9F34C1B41C1A500963598 /* Main.storyboard in Resources */,
 				5EB9F3511B41C1A500963598 /* LaunchScreen.xib in Resources */,
-				6EE604251B42051100E7A053 /* QRCode-Info.plist in Resources */,
 				5EB9F34E1B41C1A500963598 /* Images.xcassets in Resources */,
+				5E5C5D731B4316EF0047E456 /* QRCode-Info.plist in Resources */,
 				4A1BEA1D1B42FC9B00ADC6CF /* Rolodex.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
