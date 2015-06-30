@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391532531B431104002F5797 /* 3122900531_40c07132ec_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391532521B431104002F5797 /* 3122900531_40c07132ec_o.jpg */; };
 		4A1BEA181B41F58000ADC6CF /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BEA171B41F58000ADC6CF /* ContactsViewController.m */; };
 		4A1BEA1B1B42F42200ADC6CF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BEA1A1B42F42200ADC6CF /* HomeViewController.m */; };
-		4A1BEA1D1B42FC9B00ADC6CF /* Rolodex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1BEA1C1B42FC9B00ADC6CF /* Rolodex.jpg */; };
 		553759401B41C6AB006DBDA4 /* QRScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */; };
 		5EB9F3431B41C1A500963598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3421B41C1A500963598 /* main.m */; };
 		5EB9F3461B41C1A500963598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9F3451B41C1A500963598 /* AppDelegate.m */; };
@@ -42,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		391532521B431104002F5797 /* 3122900531_40c07132ec_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3122900531_40c07132ec_o.jpg; path = ../../../../Downloads/3122900531_40c07132ec_o.jpg; sourceTree = "<group>"; };
 		4A1BEA161B41F58000ADC6CF /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
 		4A1BEA171B41F58000ADC6CF /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
 		4A1BEA191B42F42200ADC6CF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4A1BEA1A1B42F42200ADC6CF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		4A1BEA1C1B42FC9B00ADC6CF /* Rolodex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rolodex.jpg; sourceTree = "<group>"; };
 		5537593E1B41C6AB006DBDA4 /* QRScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScannerViewController.h; sourceTree = "<group>"; };
 		5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScannerViewController.m; sourceTree = "<group>"; };
 		5EB9F33D1B41C1A500963598 /* Rolodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rolodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,13 +136,13 @@
 				5537593E1B41C6AB006DBDA4 /* QRScannerViewController.h */,
 				5537593F1B41C6AB006DBDA4 /* QRScannerViewController.m */,
 				5EB9F34A1B41C1A500963598 /* Main.storyboard */,
+				391532521B431104002F5797 /* 3122900531_40c07132ec_o.jpg */,
 				4A1BEA191B42F42200ADC6CF /* HomeViewController.h */,
 				4A1BEA1A1B42F42200ADC6CF /* HomeViewController.m */,
 				4A1BEA161B41F58000ADC6CF /* ContactsViewController.h */,
 				4A1BEA171B41F58000ADC6CF /* ContactsViewController.m */,
 				5EB9F34D1B41C1A500963598 /* Images.xcassets */,
 				5EB9F34F1B41C1A500963598 /* LaunchScreen.xib */,
-				4A1BEA1C1B42FC9B00ADC6CF /* Rolodex.jpg */,
 				6EE604231B42051100E7A053 /* QRCode-Info.plist */,
 				5EB9F3401B41C1A500963598 /* Supporting Files */,
 			);
@@ -276,11 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391532531B431104002F5797 /* 3122900531_40c07132ec_o.jpg in Resources */,
 				5EB9F34C1B41C1A500963598 /* Main.storyboard in Resources */,
 				5EB9F3511B41C1A500963598 /* LaunchScreen.xib in Resources */,
 				6EE604251B42051100E7A053 /* QRCode-Info.plist in Resources */,
 				5EB9F34E1B41C1A500963598 /* Images.xcassets in Resources */,
-				4A1BEA1D1B42FC9B00ADC6CF /* Rolodex.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
