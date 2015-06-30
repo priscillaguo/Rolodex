@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface QRScannerViewController : UIViewController 
+@interface QRScannerViewController : UIViewController <AVCaptureMetadataOutputObjectsDelegate>
+
+//Properties to be connected to the view:
+@property (weak, nonatomic) IBOutlet UIView *viewPreview;
+@property (weak, nonatomic) IBOutlet UILabel *lblStatus;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *bbitemStart;
+
+//Starts and stops video capturing (to read QRCode):
+- (IBAction)startStopReading:(id)sender;
 
 @end
